@@ -1,4 +1,4 @@
-# Twitter-Bot
+# Twitter Bot
 Hi! This is a Twitter bot i created with Python , it posts pictures from a folder (in this example i used a my reddit bot to scrapp images from reddit) with quotes as a captions .
 
  - Here's the link to the bot account : 
