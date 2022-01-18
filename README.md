@@ -7,7 +7,7 @@ Hi! This is a Twitter bot i created with Python , it posts pictures from a folde
 - And Here's mine if you want to DM me for any questions :
 https://twitter.com/abdeeeer
 
-## Dependecies
+## Dependencies
 Dependencies to install with pip:
 ```
 requests
