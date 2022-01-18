@@ -35,13 +35,13 @@ for post in res["data"]["children"]:
     if image_data:
         image_url= image_data.split("/")[-1]
         if ".jpg"  in image_url:
-            file = f"enter your folders path/{image_url}" # enter your folders path as exaple: /Users/Abder/Desktop/Pictures
+            file = f"enter your folders path/{image_url}" # enter your folders path as example: /Users/Abder/Desktop/Pictures
             INDEX += 1 
         elif ".gif" in image_url:
-            file = f"enter your folders path/{image_url}" # enter your folders path as exaple: /Users/Abder/Desktop/Pictures
+            file = f"enter your folders path/{image_url}" # enter your folders path as example: /Users/Abder/Desktop/Pictures
             INDEX +=1
         elif ".png" in image_url:
-            file = f"enter your folders path/{image_url}" # enter your folders path as exaple: /Users/Abder/Desktop/Pictures
+            file = f"enter your folders path/{image_url}" # enter your folders path as example: /Users/Abder/Desktop/Pictures
             INDEX +=1
         else:
             continue
