@@ -18,7 +18,7 @@ api = tweepy.API(auth)
 
 # listing the names of pictures 
 pictures_name_files = open('pictures_files.txt','w')
-for dirpath , dirnames , pictures in os.walk("enter the path to the pictures folder you wanna use"):  #example :/Users/Abder/Desktop/Pictures
+for dirpath , dirnames , pictures in os.walk("enter the path to the pictures folder you wanna use"):  #example: /Users/Abder/Desktop/Pictures
     for pic_name in pictures:
         pictures_name_files.write(pic_name+'\n')
 
